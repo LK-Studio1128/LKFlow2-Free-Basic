@@ -1,0 +1,13 @@
+# 运行产物
+lkflow_env/
+__pycache__/
+*.pyc
+lkflow_out/
+demo_mr/
+data/
+.DS_Store
+# 宣传物料（海报生成器/完整版软件图/文案）只保留本地发布包，不上传仓库
+_work/
+examples/full_*.png
+*宣传*
+*文案*

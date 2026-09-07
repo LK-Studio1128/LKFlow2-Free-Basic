@@ -1,0 +1,14 @@
+# 依赖清单（install 子命令自动安装；也可手动 pip install -r requirements.txt）
+# 核心（MR 也需要）
+numpy
+pandas
+scipy
+matplotlib
+# 差异表达 / 韦恩图 / 机器学习（经典转录组线）
+scikit-learn
+matplotlib-venn
+# 单细胞 / 空间转录组
+scanpy
+h5py
+# 聚类后端（leidenalg 优先；装不上 install 会自动尝试 python-louvain）
+leidenalg
